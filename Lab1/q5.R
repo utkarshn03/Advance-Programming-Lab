@@ -1,0 +1,10 @@
+num1 <- as.numeric(readline("Enter the first number: "))
+num2 <- as.numeric(readline("Enter the second number: "))
+
+cat("Relational operators of the two numbers:\n")
+cat("Greater than:", num1 > num2, "\n")
+cat("Less than:", num1 < num2, "\n")
+cat("Greater than or equal:", num1 >= num2, "\n")
+cat("Less than or equal:", num1 <= num2, "\n")
+cat("Equal:", num1 == num2, "\n")
+cat("Not equal:", num1 != num2, "\n")
