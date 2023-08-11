@@ -1,0 +1,7 @@
+amount <- as.numeric(readline("Enter the amount to be withdrawn-"))
+h <- as.integer(amount/100)
+f <- as.integer((amount %% 100)/50)
+t <- as.integer(((amount %% 100)%%50)/10)
+cat("No. of Rs100 notes=",h,"/n")
+cat("No. of Rs50 notes=",f,"/n")
+cat("No. of Rs10 notes=",t,"/n")
