@@ -1,3 +1,5 @@
+#Write an R-script to initialize a vector and then search a specific element from that vector.
+
 x <- c(-50,23,-38,48,-19,07,-45,-22,-09,10)
 n <- as.numeric(readline)
 
