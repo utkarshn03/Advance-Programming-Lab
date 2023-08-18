@@ -1,3 +1,5 @@
+#Write an R-script to create two matrix and then perform addition, subtraction, multiplication and division of them.
+
 matrix1 <- matrix(c(1, 2, 3, 4), nrow = 2, ncol = 2)
 
 matrix2 <- matrix(c(5, 6, 7, 8), nrow = 2, ncol = 2)
